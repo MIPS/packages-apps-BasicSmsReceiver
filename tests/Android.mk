@@ -29,6 +29,7 @@ LOCAL_SRC_FILES := $(call all-java-files-under, src)
 # automatically get all of its classes loaded into our environment.
 
 LOCAL_PACKAGE_NAME := BasicSmsReceiverTests
+LOCAL_PRIVATE_PLATFORM_APIS := true
 
 LOCAL_INSTRUMENTATION_FOR := BasicSmsReceiver
 
